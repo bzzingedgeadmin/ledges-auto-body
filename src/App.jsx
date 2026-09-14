@@ -173,7 +173,7 @@ export default function App() {
 
       {/* Before & After Section */}
       <section id="before-after" className="section">
-        <div class="container">
+        <div className="container">
           <div className="section-header text-center">
             <h2>Our Craftsmanship: Before & After</h2>
             <p>Take a look at recent transformations completed at our Grand Ledge facility.</p>
@@ -181,7 +181,7 @@ export default function App() {
           <div className="ba-grid">
             <div className="ba-card">
               <div className="ba-image-container">
-                <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=600&q=80" alt="Front end collision repair" className="ba-img" />
+                <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=800&q=80" alt="Front end collision repair" className="ba-img" />
                 <span className="ba-tag">Restored</span>
               </div>
               <div className="ba-info">
@@ -191,7 +191,7 @@ export default function App() {
             </div>
             <div className="ba-card">
               <div className="ba-image-container">
-                <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80" alt="Side door damage repair" className="ba-img" />
+                <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80" alt="Side door damage repair" className="ba-img" />
                 <span className="ba-tag">Restored</span>
               </div>
               <div className="ba-info">
@@ -201,12 +201,42 @@ export default function App() {
             </div>
             <div className="ba-card">
               <div className="ba-image-container">
-                <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=600&q=80" alt="Bumper repair" className="ba-img" />
+                <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=800&q=80" alt="Bumper repair" className="ba-img" />
                 <span className="ba-tag">Restored</span>
               </div>
               <div className="ba-info">
                 <h4>Rear Bumper & Tail Light Assembly</h4>
                 <p>Plastic bumper welding, sensor recalibration, and high-gloss paint refinish.</p>
+              </div>
+            </div>
+            <div className="ba-card">
+              <div className="ba-image-container">
+                <img src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=800&q=80" alt="Frame Straightening" className="ba-img" />
+                <span className="ba-tag">Restored</span>
+              </div>
+              <div className="ba-info">
+                <h4>Chassis Alignment & Paint Refinishing</h4>
+                <p>Computerized laser frame straightening with custom OEM metallic spray booth match.</p>
+              </div>
+            </div>
+            <div className="ba-card">
+              <div className="ba-image-container">
+                <img src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=800&q=80" alt="Dent Repair" className="ba-img" />
+                <span className="ba-tag">Restored</span>
+              </div>
+              <div className="ba-info">
+                <h4>Paintless Dent Repair (PDR)</h4>
+                <p>Precision dent removal eliminating hail impact and door dings without repainting.</p>
+              </div>
+            </div>
+            <div className="ba-card">
+              <div className="ba-image-container">
+                <img src="https://images.unsplash.com/photo-1486006920555-c77dce18193b?auto=format&fit=crop&w=800&q=80" alt="Full Collision Overhaul" className="ba-img" />
+                <span className="ba-tag">Restored</span>
+              </div>
+              <div className="ba-info">
+                <h4>Full SUV Collision Overhaul</h4>
+                <p>Comprehensive body panel replacement, headlight restoration, and ceramic clear coating.</p>
               </div>
             </div>
           </div>
